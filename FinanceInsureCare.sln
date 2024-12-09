@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceInsureCare.UI", "FinanceInsureCare.UI\FinanceInsureCare.UI.csproj", "{AD101807-B23D-4C50-ABDC-CC0BE56232CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceInsureCare.UI", "FinanceInsureCare.UI\FinanceInsureCare.UI.csproj", "{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceInsureCare.Core", "FinanceInsureCare.Core\FinanceInsureCare.Core.csproj", "{D6AA0104-9B77-41D7-BD01-50F0A101357A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanceInsureCare.Modules", "FinanceInsureCare.Modules", "{0E5FA861-7169-4D1A-B622-06B0B3D54D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceInsureCare.Modules.Client", "FinanceInsureCare.Modules.Client\FinanceInsureCare.Modules.Client.csproj", "{000A1433-5DFB-4730-ABF6-7403DA07334C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceInsureCare.Modules.Expense", "FinanceInsureCare.Modules.Expense\FinanceInsureCare.Modules.Expense.csproj", "{CCACEAD4-D98A-4328-9B00-995C1EAD18CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +19,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD101807-B23D-4C50-ABDC-CC0BE56232CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD101807-B23D-4C50-ABDC-CC0BE56232CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD101807-B23D-4C50-ABDC-CC0BE56232CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD101807-B23D-4C50-ABDC-CC0BE56232CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AA0104-9B77-41D7-BD01-50F0A101357A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AA0104-9B77-41D7-BD01-50F0A101357A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AA0104-9B77-41D7-BD01-50F0A101357A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AA0104-9B77-41D7-BD01-50F0A101357A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000A1433-5DFB-4730-ABF6-7403DA07334C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000A1433-5DFB-4730-ABF6-7403DA07334C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000A1433-5DFB-4730-ABF6-7403DA07334C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000A1433-5DFB-4730-ABF6-7403DA07334C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCACEAD4-D98A-4328-9B00-995C1EAD18CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCACEAD4-D98A-4328-9B00-995C1EAD18CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCACEAD4-D98A-4328-9B00-995C1EAD18CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCACEAD4-D98A-4328-9B00-995C1EAD18CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{000A1433-5DFB-4730-ABF6-7403DA07334C} = {0E5FA861-7169-4D1A-B622-06B0B3D54D13}
+		{CCACEAD4-D98A-4328-9B00-995C1EAD18CD} = {0E5FA861-7169-4D1A-B622-06B0B3D54D13}
 	EndGlobalSection
 EndGlobal
