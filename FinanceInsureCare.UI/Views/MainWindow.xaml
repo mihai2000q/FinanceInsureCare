@@ -4,8 +4,10 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:core="clr-namespace:FinanceInsureCare.Core;assembly=FinanceInsureCare.Core"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="350" Width="525" >
-    <Grid>
+        Title="{Binding Title}" Height="720" Width="1080" >
+    <DockPanel>
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.TopbarRegion}" DockPanel.Dock="Top" />
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.SidebarRegion}" DockPanel.Dock="Left" />
         <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ExpensesRegion}" />
-    </Grid>
+    </DockPanel>
 </Window>

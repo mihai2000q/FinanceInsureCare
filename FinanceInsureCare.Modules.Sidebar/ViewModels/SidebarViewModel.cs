@@ -1,10 +1,10 @@
 ﻿using Prism.Mvvm;
 
-namespace FinanceInsureCare.Modules.Expense.ViewModels
+namespace FinanceInsureCare.Modules.Sidebar.ViewModels
 {
-    internal class ExpensesViewModel : BindableBase
+    internal class SidebarViewModel : BindableBase
     {
-        private string _message = "Expenses View";
+        private string _message = "Sidebar View";
         public string Message
         {
             get => _message;

@@ -4,19 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC4C75FE-0E26-479F-88E0-FB7DE02D0E38}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>FinanceInsureCare.UI</RootNamespace>
-    <AssemblyName>FinanceInsureCare.UI</AssemblyName>
+    <ProjectGuid>{94AE5F4C-4A7E-468E-BD90-DF5B590E8990}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>FinanceInsureCare.Modules.Income</RootNamespace>
+    <AssemblyName>FinanceInsureCare.Modules.Income</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -26,7 +24,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -35,17 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DryIoc, Version=4.7.7.0, Culture=neutral, PublicKeyToken=dfbf2bd50fcf7768, processorArchitecture=MSIL">
-      <HintPath>..\packages\DryIoc.dll.4.7.7\lib\net45\DryIoc.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.31\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
     </Reference>
     <Reference Include="Prism, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
       <HintPath>..\packages\Prism.Core.8.1.97\lib\net47\Prism.dll</HintPath>
-    </Reference>
-    <Reference Include="Prism.DryIoc.Wpf, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
-      <HintPath>..\packages\Prism.DryIoc.8.1.97\lib\net47\Prism.DryIoc.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Prism.Wpf, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
       <HintPath>..\packages\Prism.Wpf.8.1.97\lib\net47\Prism.Wpf.dll</HintPath>
@@ -67,24 +58,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Views\MainWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="IncomeModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -107,43 +81,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FinanceInsureCare.Core\FinanceInsureCare.Core.csproj">
-      <Project>{d6aa0104-9b77-41d7-bd01-50f0a101357a}</Project>
-      <Name>FinanceInsureCare.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Client\FinanceInsureCare.Modules.Client.csproj">
-      <Project>{000a1433-5dfb-4730-abf6-7403da07334c}</Project>
-      <Name>FinanceInsureCare.Modules.Client</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Dashboard\FinanceInsureCare.Modules.Dashboard.csproj">
-      <Project>{ee3255b9-1913-4026-88d9-f58160e348fa}</Project>
-      <Name>FinanceInsureCare.Modules.Dashboard</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Expense\FinanceInsureCare.Modules.Expense.csproj">
-      <Project>{ccacead4-d98a-4328-9b00-995c1ead18cd}</Project>
-      <Name>FinanceInsureCare.Modules.Expense</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Income\FinanceInsureCare.Modules.Income.csproj">
-      <Project>{94ae5f4c-4a7e-468e-bd90-df5b590e8990}</Project>
-      <Name>FinanceInsureCare.Modules.Income</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Invoice\FinanceInsureCare.Modules.Invoice.csproj">
-      <Project>{799e4e41-19db-49f6-8b18-e439cf579133}</Project>
-      <Name>FinanceInsureCare.Modules.Invoice</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Sidebar\FinanceInsureCare.Modules.Sidebar.csproj">
-      <Project>{38f5babc-78a0-44cb-a86c-c28cad100909}</Project>
-      <Name>FinanceInsureCare.Modules.Sidebar</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Topbar\FinanceInsureCare.Modules.Topbar.csproj">
-      <Project>{df9f3150-58ec-4e13-9139-d009837fe490}</Project>
-      <Name>FinanceInsureCare.Modules.Topbar</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
