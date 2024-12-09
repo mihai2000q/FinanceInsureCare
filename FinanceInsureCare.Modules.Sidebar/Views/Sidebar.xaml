@@ -7,10 +7,30 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300"
              xmlns:prism="http://prismlibrary.com/"
+             xmlns:core="clr-namespace:FinanceInsureCare.Core.Constants;assembly=FinanceInsureCare.Core"
              prism:ViewModelLocator.AutoWireViewModel="True">
-    <Grid>
-        <TextBlock Text="{Binding Message}"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center" />
+    <Grid Width="200">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Static core:ViewNames.DashboardView}">
+                Dashboard
+            </Button>
+            <Button Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Static core:ViewNames.ClientsView}">
+                Clients
+            </Button>
+            <Button Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Static core:ViewNames.ExpensesView}">
+                Expenses
+            </Button>
+            <Button Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Static core:ViewNames.IncomeView}">
+                Income
+            </Button>
+            <Button Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Static core:ViewNames.InvoicesView}">
+                Invoices
+            </Button>
+        </StackPanel>
     </Grid>
 </UserControl>

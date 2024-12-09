@@ -1,10 +1,13 @@
-﻿using FinanceInsureCare.Core;
+﻿using System.Diagnostics.CodeAnalysis;
+using FinanceInsureCare.Core;
+using FinanceInsureCare.Core.Constants;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 
 namespace FinanceInsureCare.Modules.Topbar
 {
+    [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
     public class TopbarModule : IModule
     {
         private readonly IRegionManager _regionManager;

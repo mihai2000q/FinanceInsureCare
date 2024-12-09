@@ -89,5 +89,11 @@
   <ItemGroup>
     <Page Include="Views\Dashboard.xaml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinanceInsureCare.Core\FinanceInsureCare.Core.csproj">
+      <Project>{d6aa0104-9b77-41d7-bd01-50f0a101357a}</Project>
+      <Name>FinanceInsureCare.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
