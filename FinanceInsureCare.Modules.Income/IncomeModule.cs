@@ -4,6 +4,7 @@ using FinanceInsureCare.Core.Constants;
 using FinanceInsureCare.Modules.Income.ViewModels;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Mvvm;
 
 namespace FinanceInsureCare.Modules.Income
 {
@@ -12,6 +13,7 @@ namespace FinanceInsureCare.Modules.Income
     {
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            ViewModelLocationProvider.Register<Views.Income, IncomeViewModel>();
             containerRegistry.RegisterForNavigation<Views.Income, IncomeViewModel>(ViewNames.IncomeView);
         }
 

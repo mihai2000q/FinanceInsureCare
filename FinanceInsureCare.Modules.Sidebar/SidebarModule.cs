@@ -1,8 +1,10 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using FinanceInsureCare.Core;
 using FinanceInsureCare.Core.Constants;
+using FinanceInsureCare.Modules.Sidebar.ViewModels;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Mvvm;
 using Prism.Regions;
 
 namespace FinanceInsureCare.Modules.Sidebar
@@ -19,7 +21,7 @@ namespace FinanceInsureCare.Modules.Sidebar
         
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            ViewModelLocationProvider.Register<Views.Sidebar, SidebarViewModel>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)

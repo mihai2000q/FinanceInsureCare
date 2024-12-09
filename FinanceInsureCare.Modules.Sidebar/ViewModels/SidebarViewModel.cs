@@ -1,10 +1,12 @@
-﻿using FinanceInsureCare.Core.Constants;
+﻿using System.Diagnostics.CodeAnalysis;
+using FinanceInsureCare.Core.Constants;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;
 
 namespace FinanceInsureCare.Modules.Sidebar.ViewModels
 {
+    [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
     internal class SidebarViewModel : BindableBase
     {
         private readonly IRegionManager _regionManager;

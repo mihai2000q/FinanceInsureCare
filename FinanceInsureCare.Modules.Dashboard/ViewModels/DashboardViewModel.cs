@@ -1,7 +1,9 @@
-﻿using Prism.Mvvm;
+﻿using System.Diagnostics.CodeAnalysis;
+using Prism.Mvvm;
 
 namespace FinanceInsureCare.Modules.Dashboard.ViewModels
 {
+    [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
     internal class DashboardViewModel : BindableBase
     {
         private string _message;

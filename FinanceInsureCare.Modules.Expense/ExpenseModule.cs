@@ -5,19 +5,21 @@ using FinanceInsureCare.Modules.Expense.ViewModels;
 using FinanceInsureCare.Modules.Expense.Views;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Mvvm;
 
 namespace FinanceInsureCare.Modules.Expense
 {
     [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
     public class ExpenseModule : IModule
     {
-        public void OnInitialized(IContainerProvider containerProvider)
-        {
-        }
-
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            ViewModelLocationProvider.Register<Expenses, ExpensesViewModel>();
             containerRegistry.RegisterForNavigation<Expenses, ExpensesViewModel>(ViewNames.ExpensesView);
+        }
+        
+        public void OnInitialized(IContainerProvider containerProvider)
+        {
         }
     }
 }
