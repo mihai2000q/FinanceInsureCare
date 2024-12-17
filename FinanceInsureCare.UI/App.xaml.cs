@@ -24,6 +24,7 @@ namespace FinanceInsureCare.UI
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            DotNetEnv.Env.TraversePath().Load();
         }
         
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
