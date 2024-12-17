@@ -16,7 +16,7 @@ public class ClientModule : IModule
         ViewModelLocationProvider.Register<Clients, ClientsViewModel>();
         containerRegistry.RegisterForNavigation<Clients, ClientsViewModel>(ViewNames.ClientsView);
     }
-        
+
     public void OnInitialized(IContainerProvider containerProvider)
     {
     }

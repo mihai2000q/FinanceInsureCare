@@ -10,11 +10,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FinanceInsureCare.Core\FinanceInsureCare.Core.csproj" />
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Client\FinanceInsureCare.Modules.Client.csproj" />
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Dashboard\FinanceInsureCare.Modules.Dashboard.csproj" />
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Expense\FinanceInsureCare.Modules.Expense.csproj" />
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Income\FinanceInsureCare.Modules.Income.csproj" />
-    <ProjectReference Include="..\FinanceInsureCare.Modules.Invoice\FinanceInsureCare.Modules.Invoice.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Client.UI\FinanceInsureCare.Modules.Client.UI.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Dashboard.UI\FinanceInsureCare.Modules.Dashboard.UI.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Expense.UI\FinanceInsureCare.Modules.Expense.UI.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Income.UI\FinanceInsureCare.Modules.Income.UI.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Invoice.UI\FinanceInsureCare.Modules.Invoice.UI.csproj" />
     <ProjectReference Include="..\FinanceInsureCare.Modules.Sidebar\FinanceInsureCare.Modules.Sidebar.csproj" />
     <ProjectReference Include="..\FinanceInsureCare.Modules.Topbar\FinanceInsureCare.Modules.Topbar.csproj" />
   </ItemGroup>

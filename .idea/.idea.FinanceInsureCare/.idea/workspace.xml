@@ -8,13 +8,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800946e3-b84e-4fbc-b134-d7ccfd29df43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard.UI/FinanceInsureCare.Modules.Dashboard.UI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/FinanceInsureCare.Modules.Sidebar.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/FinanceInsureCare.Modules.Sidebar.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/Views/Sidebar.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/Views/Sidebar.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client/ClientModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client.UI/ClientModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client/FinanceInsureCare.Modules.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client.UI/FinanceInsureCare.Modules.Client.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client/ViewModels/ClientsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client.UI/ViewModels/ClientsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client/Views/Clients.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client.UI/Views/Clients.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client/Views/Clients.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Client.UI/Views/Clients.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard/DashboardModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard.UI/DashboardModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard/FinanceInsureCare.Modules.Dashboard.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income.UI/FinanceInsureCare.Modules.Income.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard/ViewModels/DashboardViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard.UI/ViewModels/DashboardViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard/Views/Dashboard.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard.UI/Views/Dashboard.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard/Views/Dashboard.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Dashboard.UI/Views/Dashboard.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense/ExpenseModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense.UI/ExpenseModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense/FinanceInsureCare.Modules.Expense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense.UI/FinanceInsureCare.Modules.Expense.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense/ViewModels/ExpensesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense.UI/ViewModels/ExpensesViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense/Views/Expenses.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense.UI/Views/Expenses.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense/Views/Expenses.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Expense.UI/Views/Expenses.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income/FinanceInsureCare.Modules.Income.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice.UI/FinanceInsureCare.Modules.Invoice.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income/IncomeModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income.UI/IncomeModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income/ViewModels/IncomeViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income.UI/ViewModels/IncomeViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income/Views/Income.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income.UI/Views/Income.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income/Views/Income.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Income.UI/Views/Income.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice/FinanceInsureCare.Modules.Invoice.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice/InvoiceModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice.UI/InvoiceModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice/ViewModels/InvoicesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice.UI/ViewModels/InvoicesViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice/Views/Invoices.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice.UI/Views/Invoices.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice/Views/Invoices.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Invoice.UI/Views/Invoices.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/FinanceInsureCare.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/FinanceInsureCare.UI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/Views/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734423729191</updated>
       <workItem from="1734423731832" duration="3430000" />
-      <workItem from="1734428788525" duration="2742000" />
+      <workItem from="1734428788525" duration="4829000" />
     </task>
     <servers />
   </component>
