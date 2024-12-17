@@ -7,19 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800946e3-b84e-4fbc-b134-d7ccfd29df43" name="Changes" comment="" />
+    <list default="true" id="800946e3-b84e-4fbc-b134-d7ccfd29df43" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinanceInsureCare/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/FinanceInsureCare.Modules.Sidebar.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/FinanceInsureCare.Modules.Sidebar.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/Views/Sidebar.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.Modules.Sidebar/Views/Sidebar.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/FinanceInsureCare.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/FinanceInsureCare.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceInsureCare.UI/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceInsureCare.UI/Views/MainWindow.xaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2qKuk6oaSTWuz8rFsOiw87Vkn1P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.FinanceInsureCare.UI.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
@@ -67,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734423729191</updated>
-      <workItem from="1734423731832" duration="1105000" />
+      <workItem from="1734423731832" duration="3430000" />
+      <workItem from="1734428788525" duration="2742000" />
     </task>
     <servers />
   </component>
