@@ -1,2 +1,2 @@
 # FinanceInsureCare
-Desktop based Application with Monolith Architecture written in C#, .NET Framework and WPF using Prism Framework. 
+Desktop based Application with Monolith Architecture written in C#, .NET Core and WPF using Prism Framework. 

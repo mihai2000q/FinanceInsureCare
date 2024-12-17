@@ -7,7 +7,6 @@ using FinanceInsureCare.Modules.Invoice;
 using FinanceInsureCare.Modules.Sidebar;
 using FinanceInsureCare.Modules.Topbar;
 using FinanceInsureCare.UI.Views;
-using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
 
@@ -16,7 +15,7 @@ namespace FinanceInsureCare.UI
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : PrismApplication
+    public partial class App
     {
         protected override Window CreateShell()
         {
@@ -26,7 +25,7 @@ namespace FinanceInsureCare.UI
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
         }
-
+        
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             base.ConfigureModuleCatalog(moduleCatalog);
