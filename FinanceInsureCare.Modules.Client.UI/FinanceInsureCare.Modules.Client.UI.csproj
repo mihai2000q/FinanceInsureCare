@@ -9,5 +9,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FinanceInsureCare.Core\FinanceInsureCare.Core.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Client.Business\FinanceInsureCare.Modules.Client.Business.csproj" />
+    <ProjectReference Include="..\FinanceInsureCare.Modules.Client.Persistence\FinanceInsureCare.Modules.Client.Persistence.csproj" />
   </ItemGroup>
 </Project>
